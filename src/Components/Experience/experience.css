@@ -1,0 +1,165 @@
+.experience{
+
+    background: rgb(210,209,209);
+    background: linear-gradient(90deg, rgba(210,209,209,1) 0%, rgba(255,253,253,0.9019257361147583) 50%, rgba(78,78,78,1) 100%);
+}
+
+.expHeader {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+
+}
+
+
+.exp-subtitle{
+
+    font-size: 10px;
+    font-family: "Poppins", sans-serif;
+}
+
+.exp-title {
+    font-size: 35px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+.exp-main{
+
+    display: flex;
+    padding:0 20px;
+    flex-direction: row;
+   
+  
+}
+.exp-left{
+    flex: 1;
+ padding: 10px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+.exp-exp{
+   
+    width: 50%;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    border-radius: 30px;
+    border: 2px solid rgb(95, 93, 93);
+    font-family: "Poppins", sans-serif;
+    background-color: white;
+    padding: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.exp-certification{
+    width: 50%;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    border: 2px solid rgb(95, 93, 93);
+    font-family: "Poppins", sans-serif;
+    background-color: white;
+    padding: 15px;
+    margin-top:30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.exp-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.exp-right{
+    flex: 1;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+}
+.exp-skillset{
+
+    width: 70%;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content:space-evenly;
+    align-items: center;
+    border-radius: 30px;
+    border: 2px solid rgb(95, 93, 93);
+    font-family: "Poppins", sans-serif;
+    background-color: white;
+    padding: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.exp-skillset.two{
+    height: 35vh;
+}
+.exp-skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.skill-exp-title{
+    font-size: 15px;
+}
+
+.skill-exp{
+    font-size: 10px;
+}
+
+@media (max-width:850px) {
+
+.experience{
+   padding-top: 20px;
+}
+    .exp-main{
+        display: flex;
+        padding:40px 30px;
+        flex-direction: column;
+       
+    }
+    .exp-exp ,.exp-certification{
+        width: 100%;
+    }
+    .span-Details.small{
+
+        font-size: 14px;
+    }
+
+    .exp-skillset{
+        width: 100%;
+        height: 25vh;   
+        display: flex; 
+        flex-direction:row;
+        justify-content:space-between;    
+    }
+
+    .exp-skillset.two{
+        height: 45vh;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 2rem;
+        justify-content:center;
+        align-items: center;
+    }
+}

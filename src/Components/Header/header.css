@@ -1,0 +1,114 @@
+.main {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    padding: 0 30px;
+    height: 8vh;
+    background: rgb(210, 209, 209);
+    background: linear-gradient(90deg, rgba(210, 209, 209, 1) 0%, rgba(255, 253, 253, 0.9019257361147583) 50%, rgba(78, 78, 78, 1) 100%);
+}
+
+.mainHeader {
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    color: rgb(92, 88, 88);
+
+}
+
+.headerTitle {
+
+    font-size: 2rem;
+    font-family: "Lobster", sans-serif;
+}
+
+.headerComponents {
+    flex: 7;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.menuIcon {
+    display: none;
+    font-size: 30px;
+    color: rgb(92, 88, 88);
+}
+
+.header-li:hover {
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+
+}
+
+
+@media (max-width:850px) {
+
+    .main {
+
+        position: sticky;
+
+    }
+
+    .headerComponents {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        background-color: rgba(17, 17, 17, 0.8);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, .37);
+        backdrop-filter: blur(4px);
+        width: 100%;
+        height: 50vh;
+        position: absolute;
+        top: 0%;
+        left: -110%;
+        bottom: 35%;
+        align-items: stretch;
+        padding: 80px 0 30px 0;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        transition: all 0.3s ease-in-out;
+
+    }
+
+    .mainHeader {
+        display: flex;
+        justify-content: flex-start;
+        padding: 0 50px;
+
+    }
+
+    .headerComponents.active {
+
+        left: 0%;
+    }
+
+    .header-li {
+        display: block;
+        widows: 100%;
+        padding: 1.5rem 0;
+        color: #fbfafa;
+        font-size: 20px;
+
+    }
+
+    .header-li:hover {
+
+        background-color: rgba(255, 255, 255, 0.25);
+        backdrop-filter: blur(20px);
+    }
+
+    .menuIcon {
+
+        display: flex;
+        position: relative;
+        color: rgb(253, 253, 253);
+    }
+
+}

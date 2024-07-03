@@ -1,0 +1,136 @@
+
+.projects {
+    height: 100vh;
+    padding: 0 40px;
+    background: rgb(210, 209, 209);
+    background: linear-gradient(90deg, rgba(210, 209, 209, 1) 0%, rgba(255, 253, 253, 0.9019257361147583) 50%, rgba(78, 78, 78, 1) 100%);
+}
+
+.project-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
+.wrapper-subtitle {
+    font-size: 10px;
+    font-family: "Poppins", sans-serif;
+}
+
+.wrapper-title {
+    font-size: 35px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+.project-main {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.project-main-content {
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    width: 20vw;
+    height: 50vh;
+    padding: 25px 15px;
+    background-color: rgb(252, 250, 250);
+    border-radius: 25px;
+    border: 2px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.main-content-img {
+    width: 90%;
+    height: 30vh;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid black;
+    object-fit: cover;
+}
+
+.project-main-title {
+
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.project-main-buttons {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.project-button {
+
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: white;
+}
+
+.project-button:hover {
+    background-color: #000700;
+    color: white
+}
+
+.project-button:active {
+    background-color: #000800;
+    transform: translateY(2px);
+}
+
+.ems-credentials{
+    color: black;
+    font-size: 10px;
+    font-weight: bold;
+   margin-top: 20px;
+    
+}
+
+@media (max-width:850px) {
+
+    .projects {
+        height: auto;
+        padding: 0 40px;
+        padding-bottom: 70px;
+
+    }
+
+    .project-wrapper {
+      
+        padding: 30px;
+    }
+
+    .project-main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-main-content {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        width: 100%;
+        height: 50vh;
+        padding: 25px 15px;
+        border-radius: 25px;
+        border: 2px solid black;
+
+    }
+
+}

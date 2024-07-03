@@ -1,0 +1,233 @@
+.contact {
+    height: auto;
+    padding: 60px;
+    background: rgb(210, 209, 209);
+    background: linear-gradient(90deg, rgba(210, 209, 209, 1) 0%, rgba(255, 253, 253, 0.9019257361147583) 50%, rgba(78, 78, 78, 1) 100%);
+}
+
+.contact-wrapper {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-wrapper-subtitle {
+    font-size: 10px;
+    font-family: "Poppins", sans-serif;
+}
+
+.contact-wrapper-title {
+    font-size: 35px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+.contact-main {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 78vh
+}
+
+.contact-left {
+    display: flex;
+    flex: 6;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+
+}
+
+.contact-left-title {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-left-maintitle {
+
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+.contact-left-subtitle {
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    padding-left: 30px
+}
+
+.contact-left-details {
+
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    padding-left: 30px
+}
+
+.contact-right {
+    display: flex;
+    flex: 6;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 35vw;
+}
+
+.contact-right-form {
+
+    display: flex;
+    flex: 6;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.form-input {
+    cursor: pointer;
+    width: 30vw;
+    height: 8vh;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgb(13, 10, 10);
+    background-color: transparent;
+
+}
+
+.form-input::placeholder {
+    color: black;
+}
+
+.form-input-textarea {
+    width: 30vw;
+    height: 18vh;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgb(13, 10, 10);
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.form-input-textarea::placeholder {
+    color: black;
+}
+
+.form-button {
+
+    width: 12vw;
+    height: 6vh;
+    border-radius: 15px;
+    font-size: 18px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.form-button:hover {
+    background-color: #000700;
+    color: white
+}
+
+.form-button:active {
+    background-color: #000800;
+    transform: translateY(2px);
+}
+
+@media (max-width:850px) {
+
+    .contact {
+        width: 100%;
+        height: 100vh;
+        padding: 0;
+
+    }
+
+    .contact-wrapper{
+        padding-top: 30px;
+    }
+
+    .contact-main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 30px;
+        height: 80vh
+    }
+
+    .contact-left-title {
+
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .contact-left-title {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact-left-subtitle {
+        padding-left: 0px
+    }
+
+    .contact-left {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+
+    .contact-left-details {
+        padding-left: 0px
+    }
+
+    .contact-right {
+        width: 100%;
+        height: auto;
+    }
+
+    .form-input {
+        cursor: pointer;
+        width: 100%;
+        height: 8vh;
+        outline: none;
+        border: none;
+        border-bottom: 2px solid rgb(210, 210, 210)
+    }
+
+    .form-input-textarea {
+        width: 100%;
+        height: 10vh;
+        padding-top: 40px;
+        outline: none;
+        border: none;
+        border-bottom: 2px solid rgb(210, 210, 210);
+        cursor: pointer;
+    }
+
+    .contact-right-form {
+
+        width: 60%;
+
+    }
+
+    .form-button {
+        margin-top: 30px;
+        width: 42vw;
+        height: 6vh;
+        border-radius: 15px;
+        font-size: 22px;
+        background-color: white;
+    }
+}
